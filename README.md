@@ -2,6 +2,6 @@
 
 A security awareness application developed with React JS, CSS, and HTML. 
 
-## To build
+## To build  
 
 ## To run
