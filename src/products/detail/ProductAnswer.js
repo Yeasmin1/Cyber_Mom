@@ -15,8 +15,8 @@ function ProductAnswer(props) {
         <div className="row mb-4">
           <div className="col-lg-12">
             <div className="d-flex flex-column h-100">
-            <h1 className="text-bold">Your result </h1>
-            <h4 className="text-muted mb-4">It is a Scam</h4>   
+            <h2 className="text-bold">Your result </h2>
+            <h4 className="text-muted mb-4">It is a scam</h4>   
         
             <img
                           className="cover rounded mb-2 me-2"
@@ -27,7 +27,7 @@ function ProductAnswer(props) {
                         />
     
             <div id="alert" className="mb-0"> 
-                <h4> What to do Next?</h4>
+                <h4> What to do next?</h4>
             </div>
 
             <p className="lead flex-shrink-0">
@@ -51,8 +51,8 @@ function ProductAnswer(props) {
         <div className="row mb-4">
           <div className="col-lg-12">
             <div className="d-flex flex-column h-100">
-              <h1 className="text-bold">Your result </h1>
-              <h4 className="text-muted mb-4">It is likely a Scam</h4>     
+              <h2 className="text-bold">Your result </h2>
+              <h4 className="text-muted mb-4">It is likely a scam</h4>     
             <img
                           className="cover rounded mb-2 me-2"
                           width="160"
@@ -61,8 +61,8 @@ function ProductAnswer(props) {
                           src={Image}
                         />
     
-              <div id="alert" className="mb-0"> 
-                <h4> What to do Next?</h4>
+              <div id="alert" className="mb-0 "> 
+                <h4> What to do next?</h4>
               </div>
             
               <p className="lead flex-shrink-0">
@@ -85,11 +85,11 @@ function ProductAnswer(props) {
       <div className="row mb-4">
         <div className="col-lg-12">
           <div className="d-flex flex-column h-100">
-            <h1 className="text-bold">Your result </h1>
-            <h4 className="text-muted mb-4">Not Scam or not enough information to conclude</h4>     
+            <h2>Your result </h2>
+            <h4 className="text-muted mb-4">Not scam or not enough information to conclude</h4>     
   
-            <div id="alert" className="mb-0"> 
-              <h4> What to do Next?</h4>
+            <div id="alert-scam" className="mb-0"> 
+              <h4> What to do next?</h4>
             </div>
           
             <p className="lead flex-shrink-0">

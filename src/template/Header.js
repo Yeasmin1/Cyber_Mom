@@ -9,18 +9,18 @@ function Header(){
     }
   }
   return (
-    <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
+    <nav id='navigation' className=' navbar nav-custom-1 navbar-default-1 '>
       <div className='container'>
-        <div className='navbar-header'>
+        <div>
            <Link className="navbar-brand" to="/" onClick={changeNav}> 
             Cyber Mom
             </Link>
           
         </div>
         
-        <div className='navbar-header'>
+        <div >
           <Link to="/" className="navbar-brand"  > 
-              Security Awareness
+              Security awareness
               </Link> 
         </div>
         

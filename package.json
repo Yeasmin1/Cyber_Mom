@@ -1,5 +1,4 @@
 {
-  "homepage": "http://Yeasmin1.github.io/cyberMom/",
   "name": "cyber_mom",
   "version": "1.0.0",
   "private": true,
@@ -23,10 +22,9 @@
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
-    "test": "react-scripts test",
+    "test": "npx cypress run-ct",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [

@@ -1,13 +1,7 @@
-
 import ScrollToTopOnMount from "../template/ScrollToTopOnMount";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-
-
-
 export const Landing= (props) => {
-  return (
-    
+  return (   
     <>
       <ScrollToTopOnMount />
       <div className="container pb-5 px-lg-2">
@@ -45,31 +39,13 @@ export const Landing= (props) => {
             : 'loading'}
         </div>
         <div>
-          <div id="description" className="d-flex flex-column py-5">
+          <div id="target-text" className="d-flex flex-column py-5 description">
              <h2 className="text-center mb-3">You are the next target</h2>
-             <div className="d-flex text-center">
-               <h5 className="text-center mb-3">Many considers, human factor as the weakest link to security. Identify and fix your weaknesses before the attacker finds out.</h5>
+             <div className="text-center">
+               <h5 className="mb-3">Many considers, human factor as the weakest link to security. Identify and fix your weaknesses before the attacker finds out.</h5>
               </div>
-          </div>
-          
-          </div>
-
-        
-      </div>
-       
-      <div className="d-flex flex-column bg-white py-5">
-        <h5 className="text-center mb-3">Follow us on</h5>
-        <div className="d-flex justify-content-center">
-          <a href="!#" className="me-3">
-            <FontAwesomeIcon icon={["fab", "facebook"]} size="2x" />
-          </a>
-          <a href="!#">
-            <FontAwesomeIcon icon={["fab", "instagram"]} size="2x" />
-          </a>
-          <a href="!#" className="ms-3">
-            <FontAwesomeIcon icon={["fab", "twitter"]} size="2x" />
-          </a>
-        </div>
+          </div> 
+          </div> 
       </div>
     </>
    

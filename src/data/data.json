@@ -16,22 +16,22 @@
       },
     "Services": [
         {
-            "title": "Romance Scam",
-            "text": "I am in love with an online friend, Am I getting scammed soon?"
+            "title": "Romance scam",
+            "text": "I am in love with an online friend, am I getting scammed soon?"
 
         },
         {
-          "title": "Loan Scam",
+          "title": "Loan scam",
           "text": "I need a quick loan, what to do to prevent scam?"
 
       },
       {
-        "title": "Mail Scam",
+        "title": "Mail scam",
         "text": "I received an email from an unknown person, should I open it?"
 
     },
     {
-      "title": "Prize Scam",
+      "title": "Prize scam",
       "text": "I recived an email with a lottery ticket, what should I do?"
 
   }

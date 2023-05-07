@@ -1,7 +1,6 @@
-@media (max-width: 991.98px) {
-  
-}
-#description {  /* Text of Think you are a target */
+
+/* Text of Think you are a target */
+.description {  
   margin-top: 60px;
   padding: 60px;
   transition: all 0.8s;
@@ -9,26 +8,29 @@
   color: #ffffff;
   font-family: "Arial";
   font-size: 18px;
-  font-weight: 300px;
-  
 }
 
+/*footer*/
+.bg-footer-color {
+  background: rgb(35, 35, 111);
+  color: #ffffff;
+}
 
 /* Navigation */
-#menu {
+.nav-custom-1 {
   padding: 30px;
   transition: all 0.8s;
 }
-#menu.navbar-default {
+
+.navbar-default-1 {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
-#menu a.navbar-brand {
+.navbar-brand {
   font-family: "Arial", sans-serif;
   font-size: 28px;
-  font-weight: light;
   color: #ffffff;
   text-transform:none;
 }
@@ -49,8 +51,8 @@
   border: 0;
   height: 50px;
   width: 300px;
-  
 }
+
 .btn-custom:hover,
 .btn-custom:focus,
 .btn-custom.focus,
@@ -60,6 +62,7 @@
   background-image: none;
   background-color: #6372ff;
 }
+
 .btn:active,
 .btn.active {
   background-image: none;
@@ -67,6 +70,7 @@
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+
 a:focus,
 .btn:focus,
 .btn:active:focus,
@@ -75,42 +79,25 @@ a:focus,
 .btn:active.focus,
 .btn.active.focus {
   outline: none;
-  outline-offset: none;
 }
+
 /* intro Section */
-
-
-#intro {
+.intro {
   padding: 40px 0 60px;
-  
 }
 
-#intro h2 {
+.intro-h1 {
   position: static;
 }
 
-#intro p {
-  margin: 20px 0;
-  font-size: 18px;
+/*Icon section */
+.social-media-icon a{
+  color: #ffffff;
+  font-size: 1.8rem;
 }
 
-/* Scam Result Section */
-
-
-#scam {
-  padding: 40px 0 60px;
-  
-}
-
-#scam h2 {
-  position: static;
-}
-
-#scam p {
-  margin: 20px 0;
-  font-size: 18px;
-}
-#alert {
+/*Result notification*/
+.notification {
   padding: 50px 0;
   background: #f6f6f6;
   

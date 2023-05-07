@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ScrollToTopOnMount from "../../template/ScrollToTopOnMount";
-import { Link, Router } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 function ProductDetail() {
   const [questionOne, setQuestionOne]= useState(0);
@@ -8,7 +8,6 @@ function ProductDetail() {
   const [questionThree, setQuestionThree]= useState(0);
 
   return (
-    
     
     <div className="container mt-5 py-4 px-xl-5">
       <ScrollToTopOnMount/>
@@ -18,7 +17,7 @@ function ProductDetail() {
             <h2 className="mb-1">Romance Scam</h2>
             <h4 className="text-muted mb-4">Identify if you are a victim of Romance Scam</h4>
 
-             {/* Questions code here */}
+             {/* Questions code */}
 
              <p className="lead flex-shrink-0">
             <span>Have you always meet the person remotely?</span>
@@ -61,18 +60,16 @@ function ProductDetail() {
             <label className="form-check-label" for="flexRadioDefault1">
             Yes
             </label>
-            {console.log(questionThree)}
             </div>
             <div className="form-check">
             <input className="form-check-input" type="radio" name="flexRadioQuestion3" id="flexRadioDefault2" onClick={() => setQuestionThree(0)}/>
             <label className="form-check-label" for="flexRadioDefault2">
             No
             </label>
-            {console.log(questionThree)}
             </div>
             </p>
 
-                {/* Questions code ends here */}
+                {/* Questions code ends  */}
              
             <div className="row g-3 mb-4">
               <div className="col">
@@ -88,7 +85,6 @@ function ProductDetail() {
                 </button>
               </div>
             </div>
-
             
             <h4 className="mb-0">What is Romance Scam?</h4>
             <hr />
